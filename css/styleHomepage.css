@@ -1,0 +1,57 @@
+.container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: E6E6E6;
+}
+.char{
+    position: absolute;
+    left: 970px;
+    top :300px;
+}.char2{
+    position: absolute;
+    left: 100px;
+    top :300px;
+}
+.happy{
+    position: absolute;
+    font-family: fantasy;
+    font-size: 66px;
+    color: dodgerblue;
+    left: 400px;
+    top: 230px;
+}
+@font-face {
+    font-family: 'Time'; /*a name to be used later*/
+    src: url('../fonts/KGBlankSpaceSketch.ttf'); /*URL to font*/
+}
+.memory{
+    position: absolute;
+    font-family: 'time';
+    font-size: 80px;
+    color: coral;
+    left: 370px;
+    top: 80px;
+}
+.button{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    background-color: coral;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-family: fantasy;
+    color: aliceblue;
+    font-size: 22px;
+    font-weight: 300;
+}
+#start{
+    left: 580px;
+    top: 400px;
+}
+#highscore{
+    left: 580px;
+    top: 465px;
+}

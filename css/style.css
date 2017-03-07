@@ -1,0 +1,191 @@
+.container{
+  width: 560px;
+  position: absolute;
+  top: 75px;
+  left: 450px;
+}
+.cell{
+  width: 120px;
+  height: 120px;
+  margin: 5px;
+  background-color: #FFE69B;
+  float: left;
+  text-align: center;
+}
+body{
+  background-color: #E6E6E6;
+}
+.img{
+  margin-top: 20px
+}
+.form{
+  position: absolute;
+  background-color: #ECF0F1;
+  left:400px;
+  top:-320px;
+  width: 450px;
+  height: 320px;
+  text-align: center;
+}
+.input-area{
+  width: 300px;
+  height: 40px;
+  border: 1px solid #E2E2E2;
+  margin-top: 20px;
+  margin-left: 25px;
+  font-size: 18px;
+  color: #a09f9f;
+  padding-left: 5px;
+}
+.man-user{
+  position: absolute;
+  left:45px;
+  top:172px;
+}
+.button{
+  width: 110px;
+  height: 35px;
+  background-color: #B4D175;
+  border: 1px solid #ECF0F1;
+  border-radius: 7px;
+  color: white;
+  margin-top: 10px;
+  font-size: 20px;
+  float: right;
+  font-family: serif;
+  margin-right: 60px;
+}
+.scoreboard{
+    margin-top: 15px;
+  font-size: 60px;
+  font-family: fantasy;
+  color: #BE3C5E;
+}
+.details{
+  margin-top:  15px;
+  font-size: 60px;
+  font-family: fantasy;
+  color: #b4d175;
+}
+
+@font-face {
+    font-family: 'Time'; /*a name to be used later*/
+    src: url('../fonts/KGBlankSpaceSketch.ttf'); /*URL to font*/
+}
+.timer{
+    font-family: 'Time';
+    font-size: 80px;
+    position: absolute;
+    top: 140px;
+    left: 200px;
+    color: cornflowerblue;
+}
+.nOfTries{
+    font-family: 'Time';
+    font-size: 80px;
+    position: absolute;
+    top: 330px;
+    left: 200px;
+    color: cornflowerblue;
+}
+
+.text-timer{
+    font-family: fantasy;
+    color: #b4d175;
+    font-size: 30px;
+    position: absolute;
+    top:115px;
+    left: 200px;
+    
+}
+.text-nOfTries{
+    font-family: fantasy;
+    color: #b4d175;
+    font-size: 30px;
+    position: absolute;
+    top: 295px;
+    left: 140px;
+    
+}
+.flip{
+    transform: rotateY(180deg);
+}
+
+.opcit{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: black;
+    opacity: .5;
+    color: aliceblue;
+    font-family: 'Time';
+    vertical-align: bottom;
+    font-size: 100px;
+    padding-top: 150px;
+}
+.result{
+    width: 600px;
+    height: 450px;
+    background-color: #ECF0F1;
+    position: absolute;
+    top: 80px;
+    left: 370px;
+    border-radius: 20px;
+}
+.char{
+    position: absolute;
+    left: 400px;
+    top: 230px;
+}
+.char2{
+    position: absolute;
+    left: 425px;
+    top: 190px;
+}
+.reload{
+    position: absolute;
+    left: 1000px;
+    top: 90px;
+    width: 100px;
+    height: 100px;
+}
+.home{
+    position: absolute;
+    left: 1100px;
+    top: 90px;
+    width: 100px;
+    height: 100px;
+}
+.playagain{
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    background-color: coral;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-family: fantasy;
+    color: aliceblue;
+    font-size: 22px;
+    font-weight: 300;
+    text-align: center;
+    top:375px;
+    left: 60px
+}
+.close{
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    background-color: coral;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-family: fantasy;
+    color: aliceblue;
+    font-size: 22px;
+    font-weight: 300;
+    text-align: center;
+    top:375px;
+    left: 250px
+}
+

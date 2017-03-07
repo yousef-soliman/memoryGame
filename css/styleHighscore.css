@@ -1,0 +1,11 @@
+.container{
+    background-color: #ECF0F1;
+    width: 98%;
+    display: block;
+    margin: 20px;
+    height: 100px;
+    color: #a09f9f;
+    font-family: fantasy;
+    font-size: 60px;
+    text-align: center;
+}
